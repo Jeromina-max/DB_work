@@ -1,0 +1,5 @@
+//MYSQL DB Start
+mysql-ctl start;
+
+///MYSQL DB Stop
+mysql-ctl stop;
