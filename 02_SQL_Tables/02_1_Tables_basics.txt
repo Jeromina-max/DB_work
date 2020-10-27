@@ -1,0 +1,12 @@
+// Vorbereitung:
+
+SHOW DATABASES;
+CREATE DATABASE work;
+SHOW DATABASES;
+USE work;
+
+//Tabelle in der DB anzeigen
+SHOW TABLES;
+
+// Tabelle anlegen (1)
+
