@@ -3,3 +3,8 @@ mysql-ctl start;
 
 ///MYSQL DB Stop
 mysql-ctl stop;
+
+///MYSQL DB-CLI
+// Command Line Interface
+mysql-ctl cli;
+

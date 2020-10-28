@@ -1,0 +1,45 @@
+CREATE TABLE cats
+(
+   name VARCHAR(20) NOT NULL DEFAULT "BOO",
+   age INT NOT NULL DEFAULT 0
+);
+
+
+INSERT INTO cats
+(name,age)
+VALUES
+("Rum Tum Tugger",40),
+("Alonzo", 35),
+("Grizabella", 29); drop
+
+CREATE TABLE cats
+(
+   id INT NOT NULL,
+   name VARCHAR(20) NOT NULL DEFAULT "BOO",
+   age INT NOT NULL DEFAULT 0,
+   PRIMARY KEY (id)
+);
+
+INSERT INTO cats VALUES (0,"Gus",45);
+INSERT INTO cats VALUES (1,"Gus",40);
+INSERT INTO cats VALUES (2,"Grizabella",29);
+INSERT INTO cats VALUES (3,"Alonzo",35);
+
+CREATE TABLE cats
+(
+   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+   name VARCHAR(20) NOT NULL DEFAULT "BOO",
+   age INT NOT NULL DEFAULT 0
+   
+);
+
+INSERT INTO cats (name,age) VALUES ("Gus",45);
+INSERT INTO cats (name,age) VALUES ("Gus",40);
+INSERT INTO cats (name,age) VALUES ("Grizabella",29);
+INSERT INTO cats (name,age) VALUES ("Alonzo",35);
+INSERT INTO cats (name,age) VALUES ();
+
+
+
+
+
