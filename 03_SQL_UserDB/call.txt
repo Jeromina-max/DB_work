@@ -2,5 +2,5 @@
 
 mysql-ctl cli;
 source 03_SQL_UserDB/03_1_userDB.sql;
-
-
+source 03_SQL_UserDB/03_1a_userDB.sql;
+source 03_SQL_UserDB/03_1b_userDB.sql;

@@ -1,0 +1,11 @@
+// Call für *sql-Datei (Skript)
+
+mysql-ctl cli;
+use work;
+
+// Import | Parsing
+source 04_SQL_Dataimport/04_1_csv_parsing.sql;
+source 04_SQL_Dataimport/04_1_csv_parsing_no_id.sql;
+
+// CRUD Funktionalität
+source 04_SQL_Dataimport/04_2_table_updates.sql;

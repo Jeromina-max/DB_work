@@ -1,0 +1,6 @@
+// Call für *sql-Datei (Skript)
+
+mysql-ctl cli;
+use work;
+
+// Import | Parsing
