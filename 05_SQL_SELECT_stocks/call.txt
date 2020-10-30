@@ -1,6 +1,11 @@
 // Call für *sql-Datei (Skript)
 
 mysql-ctl cli;
-use work;
+
 
 // Import | Parsing
+source 05_SQL_SELECT_stocks/05_1_csv_parsing.sql;
+
+// SELECT 
+source 05_SQL_SELECT_stocks/05_2_que_basics.sql;
+source 05_SQL_SELECT_stocks/05_3_que_sort.sql;

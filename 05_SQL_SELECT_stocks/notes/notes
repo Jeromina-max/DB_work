@@ -1,7 +1,7 @@
 id 		 	-- ID
 c_name   	-- Name des Unternehmens
 ticker   	-- DOW Ticker-Symbol
-sector   	-- Branchen-Sektor
+sector   	-- Industrie-Sektor
 industry 	-- Branche
 no_yrs 		-- Jahre, seitdem ununterbrochen Dividende ausgeschüttet werden
 ranking 	-- Ranking in der Liste
