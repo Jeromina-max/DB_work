@@ -28,14 +28,14 @@ LIMIT 10;
 */
 
 -- Abfrage eines Felds oder einer Feld-Kombi m. Umbenennung (Alias)
-/*
+/**/
 SELECT 
 ticker AS "SYMBOL",
 c_name AS "Unternehmen",
 price As "Preis in pro Aktie/$"
 FROM stocks.ccc_list
 LIMIT 10;
-*/
+
 
 
 
